@@ -67,4 +67,89 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model mysensors.3dshapes/arduino_pro_mini.wrl
+    (at (xyz -0.05 0 0.48))
+    (scale (xyz 0.395 0.395 0.395))
+    (rotate (xyz 0 0 180))
+  )
+  (model SMD_Packages.3dshapes/TQFP-32.wrl
+    (at (xyz 0.05 0 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 315))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12.wrl
+    (at (xyz 0 -0.3 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12.wrl
+    (at (xyz 0 0.3 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03.wrl
+    (at (xyz 0.55 0.1 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (at (xyz 0.25 0.2 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (at (xyz -0.15 0.2 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
+    (at (xyz -0.3 0 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
+    (at (xyz 0.55 -0.175 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Angled_1x06.wrl
+    (at (xyz -0.65 0 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 270))
+  )
+  (model Resistors_SMD.3dshapes/R_0603.wrl
+    (at (xyz -0.3 -0.05 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model Resistors_SMD.3dshapes/R_0603.wrl
+    (at (xyz 0.55 -0.125 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (at (xyz -0.3 0.05 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeS_EIA-3216.wrl
+    (at (xyz -0.35 0.15 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeS_EIA-3216.wrl
+    (at (xyz -0.35 -0.15 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model Housings_SOT-23_SOT-143_TSOT-6.3dshapes/SOT-23-5.wrl
+    (at (xyz -0.4 0 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model Capacitors_SMD.3dshapes/C_1210.wrl
+    (at (xyz -0.5 0 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
