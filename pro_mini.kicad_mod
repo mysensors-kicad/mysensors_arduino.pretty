@@ -67,7 +67,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model mysensors.3dshapes/arduino_pro_mini.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_arduino.3dshapes/arduino_pro_mini.wrl
     (at (xyz -0.05 0 0.48))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 0 180))
@@ -102,12 +102,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
     (at (xyz -0.3 0 0.5125))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
     (at (xyz 0.55 -0.175 0.5125))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
@@ -142,7 +142,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Housings_SOT-23_SOT-143_TSOT-6.3dshapes/SOT-23-5.wrl
+  (model TO_SOT_Packages_SMD.3dshapes/SOT-23-5.wrl
     (at (xyz -0.4 0 0.5125))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
