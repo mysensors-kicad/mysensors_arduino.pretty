@@ -42,27 +42,27 @@
   (pad 27 thru_hole oval (at 13.97 -5.08) (size 2.19964 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad 28 thru_hole oval (at 13.97 -2.54) (size 2.19964 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad 29 thru_hole oval (at 13.97 0) (size 2.19964 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02_Pitch2.54mm.wrl
     (at (xyz -0.15 0.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x03.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x03_Pitch2.54mm.wrl
     (at (xyz 0.55 0.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x12.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x12_Pitch2.54mm.wrl
     (at (xyz 0 0.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x12.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x12_Pitch2.54mm.wrl
     (at (xyz 0 -0.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x02_Pitch2.54mm.wrl
     (at (xyz 0.25 0.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
@@ -77,30 +77,30 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 315))
   )
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12.wrl
-    (at (xyz 0 -0.3 0.445))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
-  )
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12.wrl
-    (at (xyz 0 0.3 0.445))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
-  )
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03.wrl
-    (at (xyz 0.55 0.1 0.445))
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12_Pitch2.54mm.wrl
+    (at (xyz 0.55 -0.3 0.445))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))
   )
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
-    (at (xyz 0.25 0.2 0.445))
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12_Pitch2.54mm.wrl
+    (at (xyz 0.55 0.3 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
+    (at (xyz 0.55 0.2 0.445))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
-    (at (xyz -0.15 0.2 0.445))
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
+    (at (xyz 0.3 0.2 0.445))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz 0 180 90))
+  )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
+    (at (xyz -0.1 0.2 0.445))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
   )
   (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/smd_leds/led_0603.wrl
     (at (xyz -0.3 0 0.5125))
@@ -112,10 +112,10 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Pin_Headers.3dshapes/Pin_Header_Angled_1x06.wrl
-    (at (xyz -0.65 0 0.5125))
+  (model Pin_Headers.3dshapes/Pin_Header_Angled_1x06_Pitch2.54mm.wrl
+    (at (xyz -0.65 -0.25 0.5125))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 270))
+    (rotate (xyz 0 0 180))
   )
   (model Resistors_SMD.3dshapes/R_0603.wrl
     (at (xyz -0.3 -0.05 0.5125))
@@ -132,12 +132,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeS_EIA-3216.wrl
+  (model Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-S_EIA-3216-12.wrl
     (at (xyz -0.35 0.15 0.5125))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeS_EIA-3216.wrl
+  (model Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-S_EIA-3216-12.wrl
     (at (xyz -0.35 -0.15 0.5125))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
@@ -149,6 +149,11 @@
   )
   (model Capacitors_SMD.3dshapes/C_1210.wrl
     (at (xyz -0.5 0 0.5125))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/switch/smd_push.wrl
+    (at (xyz 0.4 0 0.5125))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
